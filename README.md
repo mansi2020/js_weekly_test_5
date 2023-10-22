@@ -1,4 +1,4 @@
-# hosted link : https://mansi2020.github.io/js_weekly_test_5/  \
+# hosted link : https://mansi2020.github.io/js_weekly_test_5/  
 
 ![Screenshot (22)](https://github.com/mansi2020/js_weekly_test_5/assets/57188328/594d0e58-cf28-4cae-b843-334a3db8dfea)
 
