@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    width:100%;
+    height:100vh;
+}
+.cards{
+    display:grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap:2.5rem;
+    margin-left:2rem;
+    margin-right: 2rem;
+}
+.card{
+    box-shadow: 0px 20px 25px -5px rgb(202, 202, 202);
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1.5rem;
+}
+.card img{
+    margin: 40px 40px 40px 0;
+}
+.content{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+.content button,#showAll,#buy_now,.signinButton,#search{
+    margin-top: 1rem;
+    padding:16px 40px;
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(92, 2, 246);
+    color:white;
+    font-weight:600;
+}
+h2{
+    margin-bottom: 1rem;
+}
+.searchBar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+h1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* new paragraph style */
+.newParaStyle{
+    text-align: center;
+}
+
+#ShowAllDiv{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: none;
+}
+
+
+/* pop up menu */
+.deatilMainDiv{
+    position: fixed;
+    background-color: rgba(0,0,0,0.26);
+    top:0;
+    left:0;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    max-width: none;
+    padding: 0px;
+    text-align: center;
+}
+.deatilSubDiv{
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    height:fit-content;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 25px 50px -12px;
+    padding:2rem;
+    border-radius: 20px;
+    width:34rem;
+    z-index: 999;
+}
+.deatilSubDiv button{
+    background-color: rgb(214, 7, 7);
+    border: none;
+    color:white;
+    padding:10px 20px;
+    border-radius: 5px;
+    width:100px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+.deatilSubDiv button:hover{
+    cursor: pointer;
+    background-color: grey;
+    color:white;
+}
+.deatilSubDiv img{
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.deatilSubDiv h3{
+    margin-bottom: 1rem;
+}
+.search_phone{
+    margin-top: 30rem;
+}
+
+/* header part style */
+.header{
+    padding-left:5rem;
+    padding-right:5rem;
+    padding-top: 3rem;
+    background-color: rgb(243,248,255);
+    height:98vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.images{
+    position: absolute;
+    top:26rem;
+    left:8rem;
+    margin-bottom: 20rem;
+}
+.signin{
+    display: flex;
+    align-items: center;
+    gap:50rem;
+}
+#buy_now,.signinButton{
+    padding:15px 20px;
+    margin:0;
+}
+.signin h2,.header_content h1,.header_content p{
+    color:rgb(31,41,55);
+}
+.header_content h1{
+    font-size: 3.75rem;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+}
+.header_content p{
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    min-width: 15rem;
+}
+.header_content{
+    width:48rem;
+}
+
+/* serach bar style */
+input{
+    width: 20rem;
+    padding-left:1rem;
+    padding-right: 1rem;
+    border-radius: 7px;
+    border: none;
+    border: 1px solid grey;
+    margin-right: 20px;
+    height: 3rem;
+}
+#search{
+    margin-top: 0px;
+    height: 3rem;
+    padding-left:1.5rem;
+    padding-right: 1.5rem;
+    display:flex;
+    align-items: center;
+}
+
+/* footer styling */
+.footer{
+    height:30rem;
+    margin-top:5rem;
+    background-color: rgb(243,248,255);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer img{
+    height:60px;
+    margin-bottom: 1rem;
+}
+.footer span{
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer p{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.icons i{
+    margin-top: 1rem;
+    font-size: 2rem;
+}
