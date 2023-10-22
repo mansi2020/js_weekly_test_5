@@ -1,6 +1,9 @@
 # hosted link : https://mansi2020.github.io/js_weekly_test_5/  
 
-![Screenshot (22)](https://github.com/mansi2020/js_weekly_test_5/assets/57188328/594d0e58-cf28-4cae-b843-334a3db8dfea)
+![Screenshot (22)](https://github.com/mansi2020/js_weekly_test_5/assets/57188328/594d0e58-cf28-4cae-b843-334a3db8dfea)  
+
+![Screenshot (23)](https://github.com/mansi2020/js_weekly_test_5/assets/57188328/852d2f02-22f2-4212-852f-741251f051f8)
+
 
 The code begins by selecting various HTML elements using document.querySelector and document.querySelectorAll.
 
