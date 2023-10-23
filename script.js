@@ -39,7 +39,9 @@ searchButton.addEventListener("click", (e) => {
   if (searchBarText.length == 0) {
     cards.style.display = "none";
     let newPara = document.createElement("p");
-    newPara.innerText = "mansi";
+    newPara.innerText = "Please Write something in Search Bar";
+    newPara.style.color = "red";
+    newPara.style.fontWeight = "700";
     newPara.classList.add("newParaStyle");
     console.log(newPara.innerText);
     search_phone_container.appendChild(newPara);
@@ -62,12 +64,20 @@ async function addPhones() {
     let arr = dataVal.data;
     console.log(arr);
     console.log(searchBarText);
-  
+
+    //iphone value is less then 20 so that we have to add condition
+    let num = 0;
+    if(searchBarText == "iphone"){
+      num = arr.length-1;
+    }else{
+      num =20;
+    }
+
     for (let i = 0; i < cardList.length; i++) {
       cardList[i].style.display = "none";
     }
   
-    for (let i = 0; i <= 20; i++) {
+    for (let i = 0; i <= num; i++) {
       //create new div
       let newDiv = document.createElement("div");
       newDiv.classList.add("card");

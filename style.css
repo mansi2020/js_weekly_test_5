@@ -222,3 +222,8 @@ input{
     margin-top: 1rem;
     font-size: 2rem;
 }
+
+button:hover,#search:hover{
+    cursor: pointer;
+    background-color: brown;
+}
